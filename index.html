@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Weight Converter</title>
+</head>
+<body class="bg-dark">    
+    <div class="container">
+        <h1 class="text-white text-center fw-bolder my-5">Weight Converter</h1>
+        <form action="" method="get">
+            <div class="text-center">
+                <input type="number" name="" id="WeightInput" class="form-control form-control-lg" placeholder="Enter weight in pounds...">
+            </div>
+        </form>
+        <div class="mt-5" id="output">
+            <div class="card-body bg-primary my-3">
+                <div class="card-title fs-4 fw-bold text-white">Grams : </div>
+                <div class="card-text text-white" id="Ingrams"></div>
+            </div>
+            <div class="card-body bg-success my-3">
+                <div class="card-title fs-4 fw-bold text-white">Kilograms : </div>
+                <div class="card-text text-white" id="Inkilograms"></div>
+            </div>
+            <div class="card-body bg-danger my-3">
+                <div class="card-title fs-4 fw-bold text-white">Ounces : </div>
+                <div class="card-text text-white" id="Inounces"></div>
+            </div>
+            <div class="card-body bg-secondary my-3">
+                <div class="card-title fs-4 fw-bold text-white">Tons : </div>
+                <div class="card-text text-white" id="Intons"></div>
+            </div>
+            <div class="card-body bg-warning my-3">
+                <div class="card-title fs-4 fw-bold text-white">Carat : </div>
+                <div class="card-text text-white" id="Incarats"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weightconverter.js"></script>
+</body>
+</html>
